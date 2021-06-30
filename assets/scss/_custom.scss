@@ -3,11 +3,6 @@
 //              WE HAVE TWO OVERIDE FOR THE PRIMARY & SECONDARY COLORS
 // #########################################################
 
-@use './components/typography';
-@use './components/mixins';
-@use './components/buttons';
-@use './components/animations';
-
 $my-primary: rgb(113, 204, 53); //change the value of this color and save then look at the theming-kit.html (ideally on a web development server)
 $my-secondary: rgb(49, 90, 21); //change the value of this color and save then look at the theming-kit.html (ideally on a web development server)
 

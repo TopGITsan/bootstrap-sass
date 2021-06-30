@@ -1,1 +1,7 @@
 @use 'custom' as *;
+
+
+@use './components/typography';
+@use './components/mixins';
+@use './components/buttons';
+@use './components/animations';
