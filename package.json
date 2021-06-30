@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap-sass",
+  "version": "1.0.0",
+  "description": "use html bootstrap sass js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github"
+  },
+  "keywords": [
+    "html",
+    "bootstrap",
+    "sass",
+    "js"
+  ],
+  "author": "Top",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.35.8"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "postcss-cli": "^8.3.1",
+    "autoprefixer": "^10.2.6"
+  }
+}
