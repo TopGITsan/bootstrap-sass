@@ -41,3 +41,17 @@
     animation-delay: 1.7s;
   }
 }
+
+.intros {
+  .video-box {
+    position: relative;
+
+    a {
+
+      i {
+        font-size: 6rem;
+        color: $secondary;
+      }
+    }
+  }
+}
