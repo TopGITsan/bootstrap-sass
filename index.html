@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/fontawesome.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/vendors/css/glightbox.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
   <title>Bootstrap - Sass</title>
 </head>
+
 <body>
   <!-- navbar section -->
   <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">logo</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -54,7 +59,8 @@
         <div class="col-md-6 intros">
           <h1 class="display-2">
             <span class="display-2--intro">Hey!, I'm Top!</span>
-            <span class="display-2--description lh-base">this is a multi-purpose responsive layout created with bootstrap v5</span>
+            <span class="display-2--description lh-base">this is a multi-purpose responsive layout created with
+              bootstrap v5</span>
           </h1>
           <button type="button" class="rounded-pill btn-rounded">Get in Touch
             <span>
@@ -65,7 +71,7 @@
         <div class="col-md-6 intros text-end">
           <div class="video-box">
             <img src="./assets/images/arts/Code Development _Two Color.png" alt="video illustration" class="img-fluid">
-            <a href="#" class="position-absolute top-50 start-50 translate-middle">
+            <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
               <span>
                 <i class="fas fa-play-circle"></i>
               </span>
@@ -76,9 +82,15 @@
         </div>
       </div>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L24,149.3C48,171,96,213,144,245.3C192,277,240,299,288,272C336,245,384,171,432,128C480,85,528,75,576,101.3C624,128,672,192,720,229.3C768,267,816,277,864,245.3C912,213,960,139,1008,133.3C1056,128,1104,192,1152,213.3C1200,235,1248,213,1296,176C1344,139,1392,85,1416,58.7L1440,32L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,128L24,149.3C48,171,96,213,144,245.3C192,277,240,299,288,272C336,245,384,171,432,128C480,85,528,75,576,101.3C624,128,672,192,720,229.3C768,267,816,277,864,245.3C912,213,960,139,1008,133.3C1056,128,1104,192,1152,213.3C1200,235,1248,213,1296,176C1344,139,1392,85,1416,58.7L1440,32L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z">
+      </path>
+    </svg>
   </section>
-  
+  <script src="/assets/vendors/js/glightbox.min.js"></script>
+  <script src="/assets/vendors/js/glightbox.options.js"></script>
   <script src="/assets/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
