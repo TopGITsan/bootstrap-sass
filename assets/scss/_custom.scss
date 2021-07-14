@@ -11,4 +11,13 @@ $pink: #d122e4;
 $primary:       $my-primary; 
 $secondary:    $pink; 
 
+// accordion
+
+$accordion-padding-y: 1.5rem;
+$accordion-padding-x: 1.5rem;
+$accordion-icon-color: $primary;
+$accordion-icon-active-color: $secondary;
+$accordion-icon-width: 1.875rem;
+
+
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
